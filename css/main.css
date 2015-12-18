@@ -1,0 +1,108 @@
+*{
+	box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Containment';
+    src: url('../fonts/containment-solid.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	box-sizing: border-box;
+	/*background: #000000;*/
+	margin: 0;
+	padding: 0;
+	background: url(../img/bg.jpg) center no-repeat; 
+    background-blend-mode: hard-light;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Containment";
+    color: black;
+    /*background: white;*/
+    /*letter-spacing: 3px;*/
+    /*font-size: 24px;*/
+}
+#button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	-webkit-transform: translate(-50%,-50%);
+	   -moz-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	     -o-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+    background: url(../img/smiley.svg) center;
+    background-size: 100%;
+	cursor: pointer;
+}
+#logo{
+    /*width: 100vw;*/
+    text-align: center;
+    margin: 25px;
+}
+#logo img{
+    width: 50%;
+    opacity: 0.5;
+}
+#grid{
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+}
+.row{
+    /*width: 100vw;*/
+    /*height: 500px;*/
+    margin: 50px 0;
+}
+.t-wrapper{
+    /*width: 50%;*/
+}
+.t-wrapper img{
+    width: 15%;
+    margin: 0 100px 0 100px;
+    /*display: block;*/
+}
+#mc_embed_signup{
+    position: absolute;
+    top: calc(60% + 200px);
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background: black;
+    color: #44da30;
+    padding: 10px;
+    text-align: center;
+}
+h2{
+	margin: 0;
+}
+form{
+	margin: 0;
+}
+.mc-field-group{
+	
+	margin: 10px 0;
+}
+INPUT[type="email"]
+{
+    background-color: #44da30;
+    color: black;
+    border: none;
+}
+INPUT[type="submit"]
+{
+    background-color: #44da30;
+    color: black;
+    border: none;
+}
+.clear{
+	text-align: center;
+}
