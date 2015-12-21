@@ -23,8 +23,15 @@ if(isMobile){
 	var index = sources.length - 1;
 }
 // playTrack(index);
-// document.getElementById("button").addEventListener("click", switchTrack);
+var button = document.getElementById("button");
+var main = document.getElementById("main");
+button.addEventListener("click", openSite);
 
+function openSite(event){
+	button.style.display = "none";
+	main.style.display = "block";
+	document.body.style.background = "black";
+}
 function playTrack(index){
 	tracks[index].play();
 	tracks[index].addEventListener("ended", switchTrack);
