@@ -74,6 +74,17 @@ body{
     /*margin: 0 100px 0 100px;*/
     /*display: block;*/
 }
+#made-in-usa{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0 30px 15px 0;
+
+}
+#made-in-usa img{
+    width: 75px;
+    height: 75px;
+}
 #mc_embed_signup{
     position: absolute;
     top: calc(60% + 200px);
