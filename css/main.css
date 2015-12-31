@@ -7,6 +7,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Nimbus Sans';
+    src: url('../fonts/NimbusSansNovusT_Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body{
 	box-sizing: border-box;
@@ -27,6 +33,10 @@ body{
 }
 #main{
     display: none;
+    background: url(../img/paper-bg.png) no-repeat;
+    background-size: 75%;
+    background-position: 50% 100%;
+    margin-bottom: 100px;
 }
 #button{
 	position: absolute;
@@ -43,6 +53,26 @@ body{
     background-size: 100%;
 	cursor: pointer;
 }
+.header-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*margin: 20px;*/
+    width: 100vw;
+    height: 100vh;
+}
+.header-container h1{
+    font-size: 128px;
+    font-family: "Nimbus Sans";
+    color: black;
+    margin: 0;
+    letter-spacing: 2px;
+    margin-left: 40px;
+
+}
+.header-container h1:first-child{
+    margin-top: 20px;
+}
 #logo{
     /*width: 100vw;*/
     text-align: center;
@@ -50,12 +80,28 @@ body{
 }
 #logo img{
     width: 20%;
-    opacity: 0.8;
+    /*opacity: 0.8;*/
 }
 #grid{
     width: 100vw;
     margin: 0 auto;
     text-align: center;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 20px 20px 0;
+}
+#footer ul{
+    list-style: none;
+    margin: ;
+}
+#footer ul li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    font-size: 24px;
 }
 .row{
     /*width: 100vw;*/
@@ -73,7 +119,7 @@ body{
     display: inline-block;
 }
 .t-wrapper img{
-    width: 75%;
+    width: 65%;
     /*margin: 0 100px 0 100px;*/
     /*display: block;*/
 }

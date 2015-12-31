@@ -24,13 +24,15 @@ if(isMobile){
 }
 // playTrack(index);
 var button = document.getElementById("button");
+var intro = document.getElementById("intro");
 var main = document.getElementById("main");
 button.addEventListener("click", openSite);
 
 function openSite(event){
-	button.style.display = "none";
+	intro.style.display = "none";
 	main.style.display = "block";
-	document.body.style.background = "black";
+
+	// document.body.style.background = "black";
 }
 function playTrack(index){
 	tracks[index].play();
