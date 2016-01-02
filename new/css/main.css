@@ -47,6 +47,7 @@ a {
 #wrapper{
     width: 100%;
     position: relative;
+    background-color: white;
 }
 #button{
     position: relative;
