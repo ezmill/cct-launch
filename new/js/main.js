@@ -24,6 +24,12 @@ $(".menu-item").click(function(e){
 $(".feature-image").click(function(e){
 	e.preventDefault();
 })
+$("#view-all-button").click(function(e){
+	e.preventDefault();
+	$("#wrapper").fadeToggle();
+	$("#view-all").fadeToggle();
+
+})
 // $(".content").on("mouseover", function(){
 	// var imgs = $(this).find("img");
 	// if($(imgs[0]).css("display", "inline")){
@@ -31,7 +37,9 @@ $(".feature-image").click(function(e){
 		// $(imgs[1]).css("display", "inline")
 	// }
 // })
-
+$(".grid-item").click(function(){
+	// $(this).find(".view-all-shopify-container").toggle();
+})
 $(".content").click(function(){
 	$(this).find(".shopify-container").fadeToggle();
 })

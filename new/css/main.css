@@ -50,6 +50,9 @@ a {
     position: relative;
     background-color: white;
 }
+#view-all{
+    display: none;
+}
 #button{
     position: relative;
     top: 50%;
@@ -204,4 +207,29 @@ a {
 }
 #smiley-h:hover{
     background-image: url(../img/t7-back.png);
+}
+.grid{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.grid-item{
+    width: 500px; 
+    height: 500px; 
+    display: inline-block;
+    background-repeat:no-repeat; 
+    background-position: center;
+    background-size: 200px;
+}
+.view-all-shopify-container{
+    text-align: center; 
+    margin: 0 auto;
+    position: relative;
+    top:85%;
+    /*-webkit-transform: translate(0, -50%);*/
+       /*-moz-transform: translate(0, -50%);*/
+        /*-ms-transform: translate(0, -50%);*/
+         /*-o-transform: translate(0, -50%);*/
+            /*transform: translate(0, -50%);*/
+    /*visibility: hidden;*/
 }
