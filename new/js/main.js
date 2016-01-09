@@ -21,6 +21,9 @@ $(".menu-item").click(function(e){
 
 	// e.preventDefault();
 })
+$(".feature-image").click(function(e){
+	e.preventDefault();
+})
 // $(".content").on("mouseover", function(){
 	// var imgs = $(this).find("img");
 	// if($(imgs[0]).css("display", "inline")){

@@ -116,6 +116,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 300px;
+    cursor: pointer;
 }
 .content img {
     height: 50vh;
