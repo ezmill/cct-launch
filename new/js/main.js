@@ -3,7 +3,32 @@ var isMobile = false;
 
 var smiley = document.getElementById("smiley");
 var smileyBuy = document.getElementById("smileyBuy");
-smiley.addEventListener("click", function(e){
-	e.preventDefault();
-	smileyBuy.style.display = "block";
+// smiley.addEventListener("click", function(e){
+// 	e.preventDefault();
+// 	smileyBuy.style.display = "block";
+// })
+function showMenu(){
+
+}
+$("#menuCart").click(function(){
+	// $("div").data("eid", "2").addClass("active");
+})
+
+$("#tab").click(function(){
+	$(this).children().fadeToggle();
+})
+$(".menu-item").click(function(e){
+
+	// e.preventDefault();
+})
+// $(".content").on("mouseover", function(){
+	// var imgs = $(this).find("img");
+	// if($(imgs[0]).css("display", "inline")){
+		// $(imgs[0]).css("display", "none")
+		// $(imgs[1]).css("display", "inline")
+	// }
+// })
+
+$(".content").click(function(){
+	$(this).find(".shopify-container").fadeToggle();
 })
