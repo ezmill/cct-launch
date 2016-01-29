@@ -180,32 +180,32 @@ a {
 #skull{
     background-image: url(../img/t2-front.png);
 }
-#skull:active{
+#skull:hover{
     background-image: url(../img/t2-back.png);
 
 }
 #radical{
     background-image: url(../img/t3-front.png);
 }
-#radical:active{
+#radical:hover{
     background-image: url(../img/t3-back.png);
 }
 #rose{
     background-image: url(../img/t5-front.png);
 }
-#rose:active{
+#rose:hover{
     background-image: url(../img/t5-back.png);
 }
 #skull-h{
     background-image: url(../img/t6-front.png);
 }
-#skull-h:active{
+#skull-h:hover{
     background-image: url(../img/t6-back.png);    
 }
 #smiley-h{
     background-image: url(../img/t7-front.png);
 }
-#smiley-h:active{
+#smiley-h:hover{
     background-image: url(../img/t7-back.png);
 }
 .grid{
